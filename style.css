@@ -1,0 +1,471 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* head styling  */
+header {
+  width: 1600px;
+  height: 837px;
+  background: #fff8f3;
+  background-image: url(images/developer.png), url(images/elipse.png);
+  background-repeat: no-repeat;
+  background-position: left, right bottom;
+}
+
+/* nav of header styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 230px 0px;
+}
+
+.title {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.title span {
+  color: #fd6e0a;
+}
+.navbar nav {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  width: 189px;
+  height: 27px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* border: 1px solid red; */
+  margin-right: 50px;
+}
+
+.nav-btn {
+  width: 150px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* hero-page styling */
+
+.hero-page {
+  display: flex;
+  padding-left: 232px;
+  margin-top: 50px;
+}
+
+.hero-page img {
+  width: 584px;
+  height: 676px;
+}
+
+.hero-greeting {
+  /* border: 1px solid red; */
+  margin-top: 185px;
+  margin-bottom: 5px;
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #474747;
+}
+
+.hero-name {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* border: 1px solid red; */
+  margin-bottom: 30px;
+}
+
+.downloadBtn {
+  width: 200px;
+  height: 64px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: #fd6e0a;
+  margin-right: 30px;
+}
+
+.phone {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  background: #fff8f3;
+}
+
+/* abour me styling  */
+
+.about-me {
+  border: 1px solid #fff8f3;
+  margin-top: 130px;
+  width: 1140px;
+  height: 550px;
+  background: #fff8f3;
+  border-radius: 10px;
+  margin-left: 230px;
+}
+
+.about-data {
+  margin: 131px 157px 131px 156px;
+  /* margin-top: 131px;
+  margin-bottom: 131px;
+  margin-left: 156px;
+  margin-right: 157px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid #000;
+  width: 827px;
+  background: #fff;
+}
+
+.about-title {
+  color: #181818;
+  /* text-align: center; */
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-desc {
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-info {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 50px;
+}
+
+.about-info h3 {
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-info h3 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px;
+}
+
+/* skill styling */
+.skills-sec {
+  /* border: 1px solid red; */
+  margin-top: 130px;
+  width: 1140px;
+  text-align: center;
+  margin-left: 236px;
+}
+
+.skill-title {
+  color: #181818;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.skill-desc {
+  color: #757575;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.skills-set {
+  height: 377px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills img {
+  width: 44px;
+  margin: 0 193px 30px 20px;
+}
+
+.skills h3 {
+  color: #181818;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 20px 63px 20px 0;
+  border: 1px solid red;
+}
+
+.skills p {
+  color: #757575;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 20px;
+}
+
+/* resume-summary styling  */
+.res-title {
+  /* border: 1px solid red; */
+  margin-top: 130px;
+  color: #181818;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.resume-sum {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 71px;
+  /* border: 1px solid red; */
+  margin-left: 230px;
+  margin-right: 277px;
+  margin-top: 131px;
+}
+.resume-sum h2 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.resume-sum h3 {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.resume-sum h4 {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.resume-sum p {
+  color: #757575;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.education {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.resume-down {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* footer section styling */
+.submitBtn {
+  width: 150px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background: #fff8f3;
+  width: 1600px;
+  height: 780px;
+  margin-top: 113px;
+  gap: 120px;
+}
+
+.footer-contact {
+  padding: 0 40px 0 40px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+  margin-top: 130px;
+  /* padding-right: 235px; */
+  gap: 20px;
+}
+
+.footer-contact h3 {
+  color: #181818;
+  /* text-align: center; */
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-contact p {
+  color: #474747;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.social a {
+  color: #fd6e0a;
+}
+
+.footer-message {
+  padding: 0 40px 0 40px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-right: 230px;
+  gap: 24px;
+}
+
+.footer-message h3 {
+  color: var(--Dark-01, #181818);
+  /* text-align: center; */
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.mail {
+  height: 64px;
+}
+.name {
+  height: 64px;
+}
+.message {
+  width: 461px;
+  height: 180px;
+}
+input::-webkit-input-placeholder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 20px;
+}
